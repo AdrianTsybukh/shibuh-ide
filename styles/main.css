@@ -1,0 +1,70 @@
+QTextEdit,
+QTabWidget,
+QListWidget,
+QWidget {
+    background-color: #282c34;
+}
+
+QPushButton {
+    font-size: 20px;
+    color: #abb2bf;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: darkslategray;
+}
+
+QTabWidget::pane {
+    color: #abb2bf;
+    border: none;
+}
+
+QTabBar::tab {
+    font-size: 16px;
+    color: #abb2bf;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+QTabBar::tab:selected {
+    border-color: #abb2bf;
+}
+
+QListWidget {
+    font-size: 16px;
+    color: #abb2bf;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+QListWidget::item:selected {
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #abb2bf;
+    margin-bottom: 3px;
+}
+
+QListWidget::item {
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    margin-bottom: 3px;
+}
+
+QTextEdit {
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    color: #abb2bf;
+}
